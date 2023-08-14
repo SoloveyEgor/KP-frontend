@@ -1,0 +1,47 @@
+.header {
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  border-bottom: 2px solid #f4f4f4;
+  box-shadow: 0px 1px 5px #f4f4f4;
+  background-color: rgb(255, 255, 255);
+}
+.header-container {
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 12px auto;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-container_title {
+  display: flex;
+}
+.header-container_title p {
+  margin: auto 0;
+  font-family: "Secular One", sans-serif;
+  font-size: 36px;
+  line-height: 120%;
+  border-bottom: #fa0 2px solid;
+}
+.header-container_social {
+  display: flex;
+}
+.header-container_social > a:not(:first-child) {
+  margin-left: 20px;
+}
+.header-container_social a:nth-child(2) {
+  text-decoration: none;
+  color: black;
+  font-family: "Secular One", sans-serif;
+  font-size: 24px;
+  line-height: 180%;
+  border-bottom: #fa0 2px solid;
+}
+.header-container_social > a {
+  margin: auto 0;
+}
+.header-container_social > a > img {
+  height: 40px;
+}/*# sourceMappingURL=style.css.map */
