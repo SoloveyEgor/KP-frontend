@@ -1,4 +1,0 @@
-User-agent: *
-Crawl-delay: 1
-Host: https://kartonporolon.ru/
-Sitemap: https://kartonporolon.ru/sitemap.xml
